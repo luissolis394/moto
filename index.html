@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h4>JOYERIA SAFIRO</h4>
+  <h5>VENTAS</h5>
+  <form onsubmit="return false">
+    <label>NOMBRE: </label>
+    <input type="text"><br>
+    <label>PESO DE JOYA: </label>
+    <input type="number" id="P"><br>
+    <label>PRECIO DE JOYA: </label>
+    <input type="number"  id="PR"><br>
+    <label>AUMENTO: </label>
+    <input type="number" id="A"><br>
+    <input type="submit" onclick="calcular()" value="CALCULAR">
+    <input type="reset" onclick="limpiar()" value="LIMPIAR"><br>
+    <label>EL TOTAL A PAGAR ES DE: Q</label>
+     <label id="j">EN PROCESO...</label><br>
+     <label>EL AUMENTO ES DE: Q</label>
+    <label id="AUMENTO">EN PROCESO...</label><br>
+     <label>EL PRECIO DE VENTA ES DE: Q</label>
+ <label id="VENTA">EN PROCESO...</label>
+     
+  </form>
+  <script src="main.js"></script>
+</body>
+</html>
